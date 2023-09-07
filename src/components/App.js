@@ -5,12 +5,12 @@ import FishList from "./FishList";
 import Search from "./Search";
 import FishForm from "./FishForm";
 import FishGame from "./FishGame";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
 
   const [allFish, setAllFish] = useState([])
   const [query, setQuery] = useState("")
-  const [page, setPage] = useState("/")
 
   useEffect(() => {
     fetch('http://localhost:4000/fish')
@@ -22,32 +22,31 @@ function App() {
 
   const filterFish = allFish.filter(fish => fish.species.toLowerCase().includes(query.toLowerCase()));
 
-  function getCurrentPage() {
-    switch(page) {
-        case "/":
-            return <Home />
-        case "/fish":
-            return (
-              <div>
-                <Search query={query} onUpdateQuery= {onUpdateQuery} />
-                <FishList allFish={filterFish} />
-              </div>)
-        case "/form":
-            return (
-              // <div>
-            <FishForm allFish ={allFish} setAllFish={setAllFish}/>
-            /* <FishGame/>
-            </div> */
-            )
-        default:
-            return <h1>404 not found</h1>
-    }
-}
-
   return (
     <div>
       <NavBar onChangePage={setPage} />
-            {getCurrentPage()}
+      <Switch>
+        <Route exact path="/">
+            <Home />
+         </Route>   
+         <Route path="/fish">
+             
+              <div>
+                <Search query={query} onUpdateQuery= {onUpdateQuery} />
+                <FishList allFish={filterFish} />
+              </div>
+              </Route>
+              <Route path="/form">
+            
+              <div>
+                <FishForm allFish ={allFish} setAllFish={setAllFish}/>
+                <FishGame/>
+              </div> 
+              </Route>
+            
+        {/* default:
+            return <h1>404 not found</h1> */}
+    </Switch>
     </div>
   );
 }

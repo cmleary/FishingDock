@@ -15,6 +15,12 @@ To display some trivia regarding various fish from across the globe.
 
 ## Setup
 
+Run this command into terminal to install dependencies for react-app
+
+```
+npm install
+```
+
 Run json-server from the directory that contains the db.json file for this project.
 
 ```

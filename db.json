@@ -71,6 +71,22 @@
       "description": "Beans",
       "points": 21,
       "id": 9
+    },
+    {
+      "species": "Pufferfish",
+      "habitat": "red sea",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMqTQon5afZeBP73K_UK5KEM6E_5SuAXwojmTrvz-M1V4V8Kx-HsD_AKawnMQGc_1IsihtPxTyELM5CbI",
+      "description": "Fat",
+      "points": 10,
+      "id": 10
+    },
+    {
+      "species": "Marlin",
+      "habitat": "pacific",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atlantic_blue_marlin.jpg/800px-Atlantic_blue_marlin.jpg",
+      "description": "sword",
+      "points": 20,
+      "id": 11
     }
   ]
 }
