@@ -63,6 +63,14 @@
       "description": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMqTQon5afZeBP73K_UK5KEM6E_5SuAXwojmTrvz-M1V4V8Kx-HsD_AKawnMQGc_1IsihtPxTyELM5CbI",
       "points": 8,
       "id": 8
+    },
+    {
+      "species": "Pufferfish",
+      "habitat": "sew",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMqTQon5afZeBP73K_UK5KEM6E_5SuAXwojmTrvz-M1V4V8Kx-HsD_AKawnMQGc_1IsihtPxTyELM5CbI",
+      "description": "Beans",
+      "points": 21,
+      "id": 9
     }
   ]
 }

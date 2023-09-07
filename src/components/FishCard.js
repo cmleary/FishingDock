@@ -7,8 +7,8 @@ function FishCard({oneFish}) {
       <img src={oneFish.image} alt={oneFish.name} />
       <h4>{oneFish.species}</h4>
       <h4>Habitat: {oneFish.habitat}</h4>
-      <p>{oneFish.descrition}</p>
-      <small>{oneFish.points}</small>
+      <p>{oneFish.description}</p>
+      <small>Points: {oneFish.points}</small>
     </li>
   );
 }

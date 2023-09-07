@@ -7,7 +7,7 @@ function FishForm({allFish, setAllFish}) {
         const newFish = {"species": event.target.species.value,
             "habitat": event.target.habitat.value,
             "image": event.target.image.value,
-            "description": event.target.image.value,
+            "description": event.target.description.value,
             "points": Number(event.target.points.value),
         }
       
@@ -23,7 +23,7 @@ function FishForm({allFish, setAllFish}) {
   }
 
   return (
-    <div className="new-plant-form">
+    <div className="new-fish-form">
       <h2>New Fish</h2>
       <form onSubmit = {onAddFish}>
         <input type="text" name="species" placeholder="Fish species" />
