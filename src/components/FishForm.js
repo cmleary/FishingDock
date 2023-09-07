@@ -1,6 +1,6 @@
 import React from "react";
 
-function FishForm({fish, setFish}) {
+function FishForm({allFish, setAllFish}) {
 
     const onAddFish = event => {
         event.preventDefault();
@@ -8,10 +8,10 @@ function FishForm({fish, setFish}) {
             "habitat": event.target.habitat.value,
             "image": event.target.image.value,
             "description": event.target.image.value,
-            "points": Number(event.target.image.value),
+            "points": Number(event.target.points.value),
         }
       
-    fetch('http://localhost:3000/fish', {
+    fetch('http://localhost:4000/fish', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -19,14 +19,14 @@ function FishForm({fish, setFish}) {
       },
       body:JSON.stringify(newFish)
     }).then(response => response.json())
-      .then(newFish => setFish([...fish, newFish]))
+      .then(newFish => setAllFish([...allFish, newFish]))
   }
 
   return (
     <div className="new-plant-form">
       <h2>New Fish</h2>
       <form onSubmit = {onAddFish}>
-        <input type="text" name="name" placeholder="Fish species" />
+        <input type="text" name="species" placeholder="Fish species" />
         <input type="text" name="image" placeholder="Image URL" />
         <input type="text" name="habitat"  placeholder="Habitat" />
         <input type="text" name="description"  placeholder="Description" />

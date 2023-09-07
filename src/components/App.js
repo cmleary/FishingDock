@@ -20,11 +20,12 @@ function App() {
   const filterFish = allFish.filter(fish => query ? fish.species.toLowerCase().includes(query.toLowerCase()) : true);
 
   return (
+    
     <div>
       <Home />
       <Search query={query} onUpdateQuery= {onUpdateQuery} />
       <FishList allFish={filterFish} />
-      <FishForm />
+      <FishForm allFish ={allFish} setAllFish={setAllFish}/>
       {/* <FishGame /> */}
     </div>
   );
