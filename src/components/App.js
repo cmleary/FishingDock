@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <NavBar onChangePage={setPage} />
+      <NavBar />
       <Switch>
         <Route exact path="/">
             <Home />
