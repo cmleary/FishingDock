@@ -1,0 +1,60 @@
+{
+    "fish": [
+      {
+        "id": 1,
+        "species": "Goldfish",
+        "habitat": "Can be found anywhere",
+        "image" : "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRHc-hn-wtBtKuCnyl_aQo3bp6Sqx8G2oIadx2-T3svIVieizMMDT-me2CBv8oksfsn",
+        "description": "Typically owned as a pet won by children that parents begrudgingly take care of.",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "species": "Barracuda",
+        "habitat": "sea",
+        "image" : "https://www.louisianasportsman.com/wp-content/uploads/2021/11/Spec-Spot-Barracuda-Main.jpg",
+        "description": "No a pet",
+        "points": 5
+      },
+      {
+        "id": 3,
+        "species": "Tuna",
+        "habitat": "Big ol' Blue",
+        "image" : "",
+        "description": "",
+        "points": 1
+      },
+      {
+        "id": 4,
+        "species": "",
+        "habitat": "",
+        "image" : "",
+        "description": "",
+        "points": 1
+      },
+      {
+        "id": 5,
+        "species": "",
+        "habitat": "",
+        "image" : "",
+        "description": "",
+        "points": 1
+      },
+      {
+        "id": 6,
+        "species": "",
+        "habitat": "",
+        "image" : "",
+        "description": "",
+        "points": 1
+      },
+      {
+        "id": 7,
+        "species": "",
+        "habitat": "",
+        "image" : "",
+        "description": "",
+        "points": 1
+      } 
+    ]
+  }
