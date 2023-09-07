@@ -1,4 +1,5 @@
 import React, { useEffect, useState  } from "react";
+import NavBar from "./NavBar";
 import Home from "./Home";
 import FishList from "./FishList";
 import Search from "./Search";
@@ -8,6 +9,23 @@ function App() {
 
     const [allFish, setAllFish] = useState([])
     const [query, setQuery] = useState("")
+    const [page, setPage] = useState("/")
+    
+    function getCurrentPage() {
+        switch(page) {
+            case "/":
+                return <Home />
+            case "/fish":
+                return <div>
+                          <Search query={query} onUpdateQuery= {onUpdateQuery} />
+                          <FishList allFish={filterFish} />
+                        </div>
+            case "/form":
+                return <FishForm allFish ={allFish} setAllFish={setAllFish}/>
+            default:
+                return <h1>404 not found</h1>
+        }
+    }
 
   useEffect(() => {
     fetch('http://localhost:4000/fish')
@@ -20,13 +38,9 @@ function App() {
   const filterFish = allFish.filter(fish => query ? fish.species.toLowerCase().includes(query.toLowerCase()) : true);
 
   return (
-    
     <div>
-      <Home />
-      <Search query={query} onUpdateQuery= {onUpdateQuery} />
-      <FishList allFish={filterFish} />
-      <FishForm allFish ={allFish} setAllFish={setAllFish}/>
-      {/* <FishGame /> */}
+      <NavBar onChangePage={setPage} />
+            {getCurrentPage()}
     </div>
   );
 }
