@@ -3,7 +3,7 @@
     {
       "id": 1,
       "species": "Goldfish",
-      "habitat": "Can be found anywhere",
+      "habitat": "Your local carnival",
       "image": "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRHc-hn-wtBtKuCnyl_aQo3bp6Sqx8G2oIadx2-T3svIVieizMMDT-me2CBv8oksfsn",
       "description": "Typically owned as a pet won by children that parents begrudgingly take care of.",
       "points": 1
@@ -11,81 +11,81 @@
     {
       "id": 2,
       "species": "Barracuda",
-      "habitat": "sea",
+      "habitat": "Seagrass beds, mangroves, and coral reefs",
       "image": "https://www.louisianasportsman.com/wp-content/uploads/2021/11/Spec-Spot-Barracuda-Main.jpg",
-      "description": "No a pet",
+      "description": "Some of the teeth of the great barracuda point backwards to prevent slippery fish from escaping once they are seized",
       "points": 5
     },
     {
       "id": 3,
       "species": "Tuna",
-      "habitat": "Big ol' Blue",
-      "image": "",
-      "description": "",
-      "points": 1
+      "habitat": "Coastal estuaries, lakes, wetlands, rivers, mountain streams and even alpine tarns",
+      "image": "https://greenglobaltravel.com/wp-content/uploads/Bluefin_tuna.jpg",
+      "description": "The Atlantic bluefin can reach ten feet in length and weigh as much as 2000 pounds",
+      "points": 5
     },
     {
       "id": 4,
-      "species": "",
-      "habitat": "",
-      "image": "",
-      "description": "",
-      "points": 1
+      "species": "Marlin",
+      "habitat": "Warm surface waters that are well mixed by surface winds and are uniform in temperature and salinity",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atlantic_blue_marlin.jpg/800px-Atlantic_blue_marlin.jpg",
+      "description": "Blue marlin use this bill to stun their prey by slashing their heads in a side-to-side motion, knocking potential prey unconscious",
+      "points": 20
     },
     {
-      "id": 5,
-      "species": "",
-      "habitat": "",
-      "image": "",
-      "description": "",
-      "points": 1
+      "species": "Pufferfish",
+      "habitat": "Marine habitats from coasts and reefs to open pelagic waters and deep ocean",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMqTQon5afZeBP73K_UK5KEM6E_5SuAXwojmTrvz-M1V4V8Kx-HsD_AKawnMQGc_1IsihtPxTyELM5CbI",
+      "description": "Is harmless, unless eaten as it is considered the most poinsous fish on the ocean and a a delicacy in some countries",
+      "points": 10,
+      "id": 5
     },
     {
       "id": 6,
-      "species": "",
-      "habitat": "",
-      "image": "",
-      "description": "",
-      "points": 1
+      "species": "Jellyfish",
+      "habitat": "Located in the ocean",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/23/2019/03/Wendy-Northway-a5a4308.jpeg",
+      "description": "Believe it or not, not a fish",
+      "points": -1
     },
     {
       "id": 7,
-      "species": "",
-      "habitat": "",
-      "image": "",
-      "description": "",
-      "points": 1
+      "species": "Seahorse",
+      "habitat": "Seagrass beds, mangrove roots, and coral reefs, in shallow temperate and tropical waters",
+      "image": "https://cdn.cdnparenting.com/articles/2022/03/21113622/1438258328.webp",
+      "description": "Male seahorses carry the eggs during reproduction, also while facing forward can swim in any direction",
+      "points": 7
     },
     {
-      "species": "Pufferfish",
-      "habitat": "bermuda",
-      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMqTQon5afZeBP73K_UK5KEM6E_5SuAXwojmTrvz-M1V4V8Kx-HsD_AKawnMQGc_1IsihtPxTyELM5CbI",
-      "description": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMqTQon5afZeBP73K_UK5KEM6E_5SuAXwojmTrvz-M1V4V8Kx-HsD_AKawnMQGc_1IsihtPxTyELM5CbI",
-      "points": 8,
+      "species": "Betta",
+      "habitat": "Large, heavily vegetated marshes, rice paddies and slow moving streams of South Asia",
+      "image": "https://bettafish.org/wp-content/uploads/2019/02/colorful-betta-fish.jpg",
+      "description": "Generally, males in the same tank will fight until one or both fish are dead",
+      "points": 9,
       "id": 8
     },
     {
-      "species": "Pufferfish",
-      "habitat": "sew",
-      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMqTQon5afZeBP73K_UK5KEM6E_5SuAXwojmTrvz-M1V4V8Kx-HsD_AKawnMQGc_1IsihtPxTyELM5CbI",
-      "description": "Beans",
-      "points": 21,
+      "species": "Piranha",
+      "habitat": "Tropical rivers and streams",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/649244-gettyimages-1307739568-9050eb3026b74a2c0e1a13a2b419efb5.jpg",
+      "description": "Shoals of piranhas can be found in numbers of up to 1000",
+      "points": 3,
       "id": 9
     },
     {
-      "species": "Pufferfish",
-      "habitat": "red sea",
-      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRMqTQon5afZeBP73K_UK5KEM6E_5SuAXwojmTrvz-M1V4V8Kx-HsD_AKawnMQGc_1IsihtPxTyELM5CbI",
-      "description": "Fat",
+      "species": "Lionfish",
+      "habitat": "Prefer warm, tropical regions",
+      "image": "https://30a.com/wp-content/uploads/2020/12/shutterstock_273670535.jpg",
+      "description": "Noted for their venomous fin spines, which are capable of producing painful, though rarely fatal, puncture wounds",
       "points": 10,
       "id": 10
     },
     {
-      "species": "Marlin",
-      "habitat": "pacific",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atlantic_blue_marlin.jpg/800px-Atlantic_blue_marlin.jpg",
-      "description": "sword",
-      "points": 20,
+      "species": "",
+      "habitat": "",
+      "image": "",
+      "description": "",
+      "points": 0,
       "id": 11
     }
   ]

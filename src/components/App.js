@@ -25,28 +25,23 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Switch>
-        <Route exact path="/">
+        <Switch>
+          <Route exact path="/">
             <Home />
-         </Route>   
-         <Route path="/fish">
-             
-              <div>
-                <Search query={query} onUpdateQuery= {onUpdateQuery} />
-                <FishList allFish={filterFish} />
-              </div>
-              </Route>
-              <Route path="/form">
-            
-              <div>
-                <FishForm allFish ={allFish} setAllFish={setAllFish}/>
-                <FishGame/>
-              </div> 
-              </Route>
-            
-        {/* default:
-            return <h1>404 not found</h1> */}
-    </Switch>
+          </Route>   
+          <Route path="/fish">
+            <div>
+              <Search query={query} onUpdateQuery= {onUpdateQuery} />
+              <FishList allFish={filterFish} />
+            </div>
+          </Route>
+          <Route path="/form">
+            <div>
+              <FishForm allFish ={allFish} setAllFish={setAllFish}/>
+              {/* <FishGame allFish={allFish}/> */}
+            </div> 
+          </Route>
+        </Switch>
     </div>
   );
 }
