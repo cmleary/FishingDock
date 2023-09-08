@@ -13,15 +13,21 @@ function FishGame({allFish}) {
         Trophy shows storage of catch*/
         const [bucket, setBucket] = useState([])
         const [points, setPoints]  = useState(0);
+        const [casts,setCasts]  = useState(5);
 
         function cast() {
+
+          if (casts > 0) {
            setTimeout(() =>{
                alert('!!!');
                let blam = []
                blam = allFish[(Math.floor(Math.random() * allFish.length))]
                setPoints(points + blam.points)
                setBucket([...bucket,blam]) 
-             }, 2000)
+               setCasts(casts -1);
+            }, 2000)
+          }
+          else alert('Too tired to cast.')
         }
         
   return (
