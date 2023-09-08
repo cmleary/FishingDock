@@ -12,19 +12,22 @@ function FishGame({allFish}) {
     
         Trophy shows storage of catch*/
         const [bucket, setBucket] = useState([])
-        
+        const [points, setPoints]  = useState(0);
+
         function cast() {
            setTimeout(() =>{
                alert('!!!');
                let blam = []
                blam = allFish[(Math.floor(Math.random() * allFish.length))]
-               setBucket([...bucket,blam])
+               setPoints(points + blam.points)
+               setBucket([...bucket,blam]) 
              }, 2000)
         }
         
   return (
     <div>
-      <button onClick={cast}>Cast</button>
+      <button className="cast" onClick={cast}>Cast</button>
+      <h1 className="points">{points}</h1>
        <ul className="cards">{bucket.map(trophy => <FishGameTrophy key={trophy.id} trophy={trophy}/>)}</ul>
     </div>
   );

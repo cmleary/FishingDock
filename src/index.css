@@ -49,6 +49,15 @@ button {
   cursor: pointer;
 }
 
+button.cast {
+  border-radius: 15px;
+  font-size:35px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width : 15%;
+}
+
 button.primary {
   background-color: var(--green);
   color: white;
@@ -84,6 +93,11 @@ main {
 .new-fish-form input {
   margin-right: 2rem;
   flex: 1;
+}
+
+h1.points{
+  color:black;
+  font-size: 50px;
 }
 
 .new-fish-form button {
