@@ -16,17 +16,16 @@ function FishGame({allFish}) {
         function cast() {
            setTimeout(() =>{
                alert('!!!');
-               fetch('http://localhost:4000/fish')
-                .then(response => response.json())
-                .then(fishData => console.log(fishData))
-                //console.log(bucket);
+               let blam = []
+               blam = allFish[(Math.floor(Math.random() * allFish.length))]
+               setBucket([...bucket,blam])
              }, 2000)
         }
         
   return (
     <div>
       <button onClick={cast}>Cast</button>
-      {/* <ul className="cards">{bucket.map(trophy => <FishGameTrophy key={trophy.id} trophy={trophy}/>)}</ul> */}
+       <ul className="cards">{bucket.map(trophy => <FishGameTrophy key={trophy.id} trophy={trophy}/>)}</ul>
     </div>
   );
 }

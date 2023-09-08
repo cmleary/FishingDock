@@ -32,13 +32,13 @@ function App() {
           <Route path="/fish">
             <div>
               <Search query={query} onUpdateQuery= {onUpdateQuery} />
+              <FishForm allFish ={allFish} setAllFish={setAllFish}/>
               <FishList allFish={filterFish} />
             </div>
           </Route>
-          <Route path="/form">
+          <Route path="/game">
             <div>
-              <FishForm allFish ={allFish} setAllFish={setAllFish}/>
-              {/* <FishGame allFish={allFish}/> */}
+              <FishGame allFish={allFish}/>
             </div> 
           </Route>
         </Switch>

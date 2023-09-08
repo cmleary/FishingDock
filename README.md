@@ -7,9 +7,9 @@ To display some trivia regarding various fish from across the globe.
 
 <li>Utilization of a NavLink</li>
 
-<li>Display the data stored within the server for user to navigate</li>
+<li>Display the data stored within the server for user to navigate and submit new entries</li>
 
-<li>Enter your own fish entries to be saved on the server.</li>
+<li>Simple game with references to server data</li>
 
 </ul>
 
